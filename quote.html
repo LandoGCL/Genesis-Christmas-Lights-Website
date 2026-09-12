@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Get a Free Quote | Genesis Christmas Lights</title>
+<meta name="description" content="Request a free holiday lighting estimate from Genesis Christmas Lights — serving Orange County.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-row">
+    <a class="brand" href="index.html">
+      <img src="assets/logo.jpg" alt="Genesis Christmas Lights logo">
+      <span class="brand-name">GENESIS<span>CHRISTMAS LIGHTS</span></span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="phone-link" href="tel:19492846609">(949) 284-6609</a>
+      <a class="btn btn-gold" href="quote.html">Get a Free Quote</a>
+      <button class="nav-toggle" aria-label="Menu">&#9776;</button>
+    </div>
+  </div>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="about.html">About</a>
+    <a href="tel:19492846609">Call (949) 284-6609</a>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">GET A FREE QUOTE</p>
+    <h1>Tell us about your home</h1>
+    <p>No obligation, no pressure &mdash; we'll follow up to schedule a free on-site estimate.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap grid-2">
+    <div>
+      <div class="form-shell">
+        <!-- Netlify Forms: works once deployed on Netlify, zero backend needed -->
+        <form name="quote-request" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="quote-request">
+          <p class="hidden">
+            <label>Don't fill this out if you're human: <input name="bot-field"></label>
+          </p>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Full name*</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="field">
+              <label for="phone">Phone number*</label>
+              <input type="tel" id="phone" name="phone" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="email">Email*</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="field">
+              <label for="city">City*</label>
+              <input type="text" id="city" name="city" required>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="address">Property address</label>
+            <input type="text" id="address" name="address" placeholder="Street address (helps us scope the estimate)">
+          </div>
+
+          <div class="field">
+            <label>What would you like lit? (check all that apply)</label>
+            <div class="check-grid">
+              <label class="check-item"><input type="checkbox" name="interest" value="Roofline"> Roofline Lighting</label>
+              <label class="check-item"><input type="checkbox" name="interest" value="Trees"> Tree Wrapping</label>
+              <label class="check-item"><input type="checkbox" name="interest" value="Wreaths & Garland"> Wreaths &amp; Garland</label>
+              <label class="check-item"><input type="checkbox" name="interest" value="Commercial"> Commercial Property</label>
+              <label class="check-item"><input type="checkbox" name="interest" value="Full Property"> Full Property Display</label>
+              <label class="check-item"><input type="checkbox" name="interest" value="Not sure"> Not Sure Yet</label>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="timeframe">Preferred timeframe</label>
+              <select id="timeframe" name="timeframe">
+                <option>Early November</option>
+                <option>Mid-November</option>
+                <option>Late November</option>
+                <option>Early December</option>
+                <option>Not sure / flexible</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="homesize">Approx. home size</label>
+              <select id="homesize" name="home_size">
+                <option>Under 2,000 sq ft</option>
+                <option>2,000&ndash;3,500 sq ft</option>
+                <option>3,500&ndash;5,000 sq ft</option>
+                <option>Over 5,000 sq ft</option>
+                <option>Not sure</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="message">Anything else we should know?</label>
+            <textarea id="message" name="message" placeholder="Tell us about your vision, HOA rules, timing constraints, etc."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-gold" style="width:100%;">Request My Free Quote</button>
+          <p class="form-note">We'll text or call within 1 business day to schedule your free on-site estimate.</p>
+        </form>
+      </div>
+    </div>
+
+    <div>
+      <h2 style="margin-bottom:16px;">Prefer to just call or text?</h2>
+      <p>Reach us directly and we'll get you scheduled.</p>
+      <div style="margin:22px 0;">
+        <a class="btn btn-outline-navy" href="tel:19492846609">Call (949) 284-6609</a>
+      </div>
+      <div class="card" style="margin-top:24px;">
+        <h3>What happens next</h3>
+        <p style="font-size:0.9rem;">We'll reach out to confirm details and schedule a free walk-through of your property. From there, you'll get a firm, no-surprise price before any work begins.</p>
+      </div>
+      <div class="card" style="margin-top:20px;">
+        <h3>Good to know</h3>
+        <p style="font-size:0.9rem;">Genesis supplies and stores all lighting &mdash; you never need to buy or store your own. Payment is simple: Venmo, Zelle, cash, or check.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/logo.jpg" alt="Genesis Christmas Lights logo">
+          <span>Genesis Christmas Lights</span>
+        </div>
+        <p style="max-width:34ch;">Full-service holiday light installation across Orange County &mdash; design, install, maintenance, and takedown.</p>
+      </div>
+      <div>
+        <h4>SITE</h4>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="quote.html">Get a Free Quote</a>
+      </div>
+      <div>
+        <h4>SERVICE AREA</h4>
+        <li>Newport Beach</li>
+        <li>Irvine</li>
+        <li>Newport Coast</li>
+        <li>All of Orange County</li>
+      </div>
+      <div>
+        <h4>CONTACT</h4>
+        <a href="tel:19492846609">(949) 284-6609</a>
+        <a href="mailto:landon@genesischristmaslights.com">landon@genesischristmaslights.com</a>
+        <a href="quote.html">Request a Quote</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Genesis Christmas Lights. All rights reserved.</span>
+      <span>Licensed &amp; Insured &middot; Orange County, CA</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
