@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Get a Free Quote | Genesis Christmas Lights</title>
-<meta name="description" content="Request a free holiday lighting estimate from Genesis Christmas Lights — serving Orange County.">
+<meta name="description" content="Request a free holiday lighting estimate from Genesis Christmas Lights, serving Orange County.">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -17,8 +17,8 @@
     </a>
     <nav class="nav-links">
       <a href="index.html">Home</a>
-      <a href="services.html">Services</a>
       <a href="gallery.html">Gallery</a>
+      <a href="interior.html">Interior Decor</a>
       <a href="about.html">About</a>
     </nav>
     <div class="nav-cta">
@@ -29,8 +29,8 @@
   </div>
   <div class="mobile-menu">
     <a href="index.html">Home</a>
-    <a href="services.html">Services</a>
     <a href="gallery.html">Gallery</a>
+    <a href="interior.html">Interior Decor</a>
     <a href="about.html">About</a>
     <a href="tel:19492846609">Call (949) 284-6609</a>
   </div>
@@ -40,7 +40,7 @@
   <div class="wrap">
     <p class="eyebrow">GET A FREE QUOTE</p>
     <h1>Tell us about your home</h1>
-    <p>No obligation, no pressure &mdash; we'll follow up to schedule a free on-site estimate.</p>
+    <p>No obligation, no pressure. We'll follow up to schedule a free on-site estimate.</p>
   </div>
 </section>
 
@@ -48,8 +48,9 @@
   <div class="wrap grid-2">
     <div>
       <div class="form-shell">
-        <!-- Netlify Forms: works once deployed on Netlify, zero backend needed -->
-        <form name="quote-request" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <!-- Netlify Forms: works once deployed on Netlify, zero backend needed.
+             action points to a real page so submission never 404s. -->
+        <form name="quote-request" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
           <input type="hidden" name="form-name" value="quote-request">
           <p class="hidden">
             <label>Don't fill this out if you're human: <input name="bot-field"></label>
@@ -88,8 +89,8 @@
               <label class="check-item"><input type="checkbox" name="interest" value="Roofline"> Roofline Lighting</label>
               <label class="check-item"><input type="checkbox" name="interest" value="Trees"> Tree Wrapping</label>
               <label class="check-item"><input type="checkbox" name="interest" value="Wreaths & Garland"> Wreaths &amp; Garland</label>
+              <label class="check-item"><input type="checkbox" name="interest" value="Interior Decor"> Interior Decor</label>
               <label class="check-item"><input type="checkbox" name="interest" value="Commercial"> Commercial Property</label>
-              <label class="check-item"><input type="checkbox" name="interest" value="Full Property"> Full Property Display</label>
               <label class="check-item"><input type="checkbox" name="interest" value="Not sure"> Not Sure Yet</label>
             </div>
           </div>
@@ -109,8 +110,8 @@
               <label for="homesize">Approx. home size</label>
               <select id="homesize" name="home_size">
                 <option>Under 2,000 sq ft</option>
-                <option>2,000&ndash;3,500 sq ft</option>
-                <option>3,500&ndash;5,000 sq ft</option>
+                <option>2,000 to 3,500 sq ft</option>
+                <option>3,500 to 5,000 sq ft</option>
                 <option>Over 5,000 sq ft</option>
                 <option>Not sure</option>
               </select>
@@ -140,7 +141,7 @@
       </div>
       <div class="card" style="margin-top:20px;">
         <h3>Good to know</h3>
-        <p style="font-size:0.9rem;">Genesis supplies and stores all lighting &mdash; you never need to buy or store your own. Payment is simple: Venmo, Zelle, cash, or check.</p>
+        <p style="font-size:0.9rem;">Genesis supplies and stores all lighting, so you never need to buy or store your own. Payment is simple: Venmo, Zelle, cash, or check.</p>
       </div>
     </div>
   </div>
@@ -154,22 +155,27 @@
           <img src="assets/logo.jpg" alt="Genesis Christmas Lights logo">
           <span>Genesis Christmas Lights</span>
         </div>
-        <p style="max-width:34ch;">Full-service holiday light installation across Orange County &mdash; design, install, maintenance, and takedown.</p>
+        <p style="max-width:34ch;">Let there be light! Full-service holiday light installation across Orange County.</p>
       </div>
       <div>
         <h4>SITE</h4>
         <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
         <a href="gallery.html">Gallery</a>
+        <a href="interior.html">Interior Decor</a>
         <a href="about.html">About</a>
         <a href="quote.html">Get a Free Quote</a>
       </div>
       <div>
         <h4>SERVICE AREA</h4>
-        <li>Newport Beach</li>
         <li>Irvine</li>
-        <li>Newport Coast</li>
-        <li>All of Orange County</li>
+        <li>Huntington Beach</li>
+        <li>Costa Mesa</li>
+        <li>Mission Viejo</li>
+        <li>Lake Forest</li>
+        <li>Tustin</li>
+        <li>Laguna Niguel</li>
+        <li>San Clemente</li>
+        <li>Dana Point</li>
       </div>
       <div>
         <h4>CONTACT</h4>
@@ -180,7 +186,7 @@
     </div>
     <div class="footer-bottom">
       <span>&copy; 2026 Genesis Christmas Lights. All rights reserved.</span>
-      <span>Licensed &amp; Insured &middot; Orange County, CA</span>
+      <span>Insured &middot; Orange County, CA</span>
     </div>
   </div>
 </footer>
